@@ -22,5 +22,6 @@ add your access_key and secret_key. Open a new terminal in the current working d
 
 
 Output:
+
  When the command "terraform apply" terminates you can find two outputs. copy the server_public_ip1 output and try to log in to it with port 5000.
  You should see the Bitcoin page with the current price of Bitcoin in USD.
