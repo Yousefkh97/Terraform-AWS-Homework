@@ -1,11 +1,3 @@
-# Configure the AWS Provider
-provider "aws" {
-  region     = "eu-central-1"
-  access_key = "AKIATZFUQBBJOASVCMRX"
-  secret_key = "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"
-}
-
-
 # # 1. Create vpc - Virtual Private Cloud
 resource "aws_vpc" "fursa" {
   cidr_block = "10.0.0.0/16"
